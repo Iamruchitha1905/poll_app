@@ -1,0 +1,69 @@
+/* ADMIN BACKGROUND */
+body {
+    background: #f4f7fb;
+}
+
+/* HEADER */
+#header {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    color: white;
+}
+
+#header a:link,
+#header a:visited {
+    color: white;
+}
+
+/* SITE NAME */
+#site-name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* MODULE BOXES */
+.module {
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    border: none;
+}
+
+/* TABLE HEADER */
+thead th {
+    background: #4e54c8;
+    color: white;
+}
+
+/* BUTTONS */
+.button,
+input[type=submit],
+input[type=button] {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 6px 16px;
+}
+
+.button:hover,
+input[type=submit]:hover {
+    opacity: 0.85;
+}
+
+/* ADD BUTTON */
+.object-tools a {
+    background: #4e54c8;
+    border-radius: 20px;
+}
+
+/* FORM FIELDS */
+input, select, textarea {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+
+/* SIDEBAR */
+#nav-sidebar {
+    background: #ffffff;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+}
